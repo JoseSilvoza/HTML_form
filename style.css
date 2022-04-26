@@ -1,0 +1,26 @@
+body {
+    padding: 10px;
+}
+
+input {
+    margin: 5px;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    padding: 1px 2px;
+    margin: 5px;
+    height: 200px;
+}
+
+button {
+    margin: 20px 0 0 5px;
+    padding: 1px 2px;
+}
+
+@media all and (min-width: 600px) {
+    textarea {
+        width: 100%;
+    }
+}
